@@ -1,19 +1,35 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on Журнал исследователя жизни. Алихан Хабибулла.</title>
-    <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on Журнал исследователя жизни. Алихан Хабибулла.</description>
+    <title>Posts on Журнал исследователя жизни</title>
+    <link>https://krepodzh.github.io/posts/</link>
+    <description>Recent content in Posts on Журнал исследователя жизни</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>ru</language>
     <lastBuildDate>Sun, 09 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://krepodzh.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Первая заметка</title>
-      <link>http://localhost:1313/posts/test/</link>
+      <link>https://krepodzh.github.io/posts/test/</link>
       <pubDate>Sun, 09 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/test/</guid>
+      <guid>https://krepodzh.github.io/posts/test/</guid>
       <description>&lt;p&gt;Это моя первая публикация в блоге Hugo PaperMod.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Проверочка</title>
+      <link>https://krepodzh.github.io/posts/proverochka/</link>
+      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://krepodzh.github.io/posts/proverochka/</guid>
+      <description>&lt;p&gt;#public
+Тестовая заметка в блоге. Интересно. Бада бум. нест. лок&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;IMG_3390&#34; loading=&#34;lazy&#34; src=&#34;https://krepodzh.github.io/images/IMG_3390.jpg&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Тестовый пост в блог</title>
+      <link>https://krepodzh.github.io/posts/testovyi-post-v-blog/</link>
+      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://krepodzh.github.io/posts/testovyi-post-v-blog/</guid>
+      <description>&lt;p&gt;Ну что такое. Давай работай. Jet. Рут. Ну же. Оло&lt;img alt=&#34;IMG_3386&#34; loading=&#34;lazy&#34; src=&#34;https://krepodzh.github.io/images/IMG_3386.jpg&#34;&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

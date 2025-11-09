@@ -1,16 +1,20 @@
 baseURL = "https://krepodzh.github.io/"
 languageCode = "ru"
-title = "Журнал исследователя жизни. Алихан Хабибулла."
+title = "Журнал исследователя жизни"
 theme = "PaperMod"
-[pagination]
-  pagerSize = 10
 enableRobotsTXT = true
 
 [outputs]
-home = ["HTML", "RSS", "JSON"]
+  home = ["HTML", "RSS", "JSON"]
+
+[pagination]
+  pagerSize = 10
 
 [params]
   defaultTheme = "auto"
+  disableSpecial1stPost = true
+  description = "Размышлизмы, наблюдения, опыты."
+  author = "Алихан Хабибулла"
   ShowReadingTime = false
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
@@ -18,12 +22,22 @@ home = ["HTML", "RSS", "JSON"]
   ShowShareButtons = false
   ShowToc = false
 
+  # единственный контакт
+  [[params.socialIcons]]
+    name = "email"
+    url  = "mailto:lexmode35@gmail.com"  # ← поставь свой e-mail
+
 [menu]
-[[menu.main]]
-  name = "Лента"
-  url = "/"
-  weight = 1
-[[menu.main]]
-  name = "RSS"
-  url = "/index.xml"
-  weight = 2
+  [[menu.main]]
+    name = "Лента"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "RSS"
+    url = "/index.xml"
+    weight = 2
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true   # чтобы на главной работал встроенный HTML (сетку для 2 фото)
+
